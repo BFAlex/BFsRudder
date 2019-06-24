@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BFsRudderView.h"
+#import "BFsRudderView2.h"
 
 @interface ViewController ()
 
@@ -25,11 +26,18 @@
 
 - (void)testView {
     
-    BFsRudderView *rudder = [[BFsRudderView alloc] init];
-    CGRect rudderFrame = CGRectMake(0, 0, 300.f, 300.f);
-    [rudder setupFrame:rudderFrame];
-    rudder.center = self.view.center;
-    [self.view addSubview:rudder];
+    CGFloat viewWH = self.view.bounds.size.width - 16.f;
+    
+//    BFsRudderView *rudder = [[BFsRudderView alloc] init];
+//    CGRect rudderFrame = CGRectMake(0, 0, viewWH, viewWH);
+//    [rudder setupFrame:rudderFrame];
+//    [self.view addSubview:rudder];
+    
+    BFsRudderView2 *rudder2 = [[BFsRudderView2 alloc] init];
+    CGRect rudder2Frame = CGRectMake(0, 0, viewWH, viewWH);
+    [rudder2 updateFrame:rudder2Frame];
+    [self.view addSubview:rudder2];
+    rudder2.center = self.view.center;
 }
 
 @end

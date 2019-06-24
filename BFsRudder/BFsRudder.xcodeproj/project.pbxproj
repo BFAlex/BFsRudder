@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4085AD022C06D7100882B77 /* BFsRudderView2.m in Sources */ = {isa = PBXBuildFile; fileRef = C4085ACF22C06D7100882B77 /* BFsRudderView2.m */; };
 		C4207F8422BCB41A0065B1F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4207F8322BCB41A0065B1F1 /* AppDelegate.m */; };
 		C4207F8722BCB41A0065B1F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4207F8622BCB41A0065B1F1 /* ViewController.m */; };
 		C4207F8A22BCB41A0065B1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4207F8822BCB41A0065B1F1 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4085ACE22C06D7100882B77 /* BFsRudderView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFsRudderView2.h; sourceTree = "<group>"; };
+		C4085ACF22C06D7100882B77 /* BFsRudderView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFsRudderView2.m; sourceTree = "<group>"; };
 		C4207F7F22BCB41A0065B1F1 /* BFsRudder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFsRudder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4207F8222BCB41A0065B1F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4207F8322BCB41A0065B1F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4085ACD22C06D5200882B77 /* Rudder2 */ = {
+			isa = PBXGroup;
+			children = (
+				C4085ACE22C06D7100882B77 /* BFsRudderView2.h */,
+				C4085ACF22C06D7100882B77 /* BFsRudderView2.m */,
+			);
+			name = Rudder2;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C4207F7622BCB41A0065B1F1 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +74,7 @@
 		C4207F8122BCB41A0065B1F1 /* BFsRudder */ = {
 			isa = PBXGroup;
 			children = (
+				C4085ACD22C06D5200882B77 /* Rudder2 */,
 				C4207F9822BCB44D0065B1F1 /* Rudder */,
 				C4207F8222BCB41A0065B1F1 /* AppDelegate.h */,
 				C4207F8322BCB41A0065B1F1 /* AppDelegate.m */,
@@ -155,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4207F8722BCB41A0065B1F1 /* ViewController.m in Sources */,
+				C4085AD022C06D7100882B77 /* BFsRudderView2.m in Sources */,
 				C4207F9222BCB4280065B1F1 /* main.m in Sources */,
 				C4207F9B22BCB4820065B1F1 /* BFsRudderView.m in Sources */,
 				C4207F8422BCB41A0065B1F1 /* AppDelegate.m in Sources */,
